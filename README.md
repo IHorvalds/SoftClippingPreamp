@@ -4,10 +4,10 @@ First solo implementation using JUCE.
 It's using a simple soft clipping function
 ```y[n] = (2/pi) * arctan(gain * x[n]) + x[n]```
 
-and an first order HPF at around 350Hz. Built starting from [https://web.archive.org/web/20181023063913/http://www.bteaudio.com/articles/TSS/TSS.html](this article),
+and an first order HPF at around 350Hz. Built starting from (https://web.archive.org/web/20181023063913/http://www.bteaudio.com/articles/TSS/TSS.html)[this article],
 but changed the cutoff frequency of the filter and the maximum gain value.
 
-Also added a tone stack built according to [https://ccrma.stanford.edu/~dtyeh/papers/yeh06_dafx.pdf](this paper by David T. Yeh and Julius O. Smith) 
+Also added a tone stack built according to (https://ccrma.stanford.edu/~dtyeh/papers/yeh06_dafx.pdf)[this paper by David T. Yeh and Julius O. Smith] 
 and a convolution filter with a guitar cabinet impulse reponse. Not sure I can share the wav file, but use other IR loaders.
 
 
